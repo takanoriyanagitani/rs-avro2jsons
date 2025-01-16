@@ -1,0 +1,11 @@
+{
+	"type":"record",
+	"name":"sample_rec1",
+	"fields":[
+	  {"name":"name", "type":"string"},
+	  {"name":"active", "type":"boolean"},
+	  {"name":"height", "type":"double"},
+	  {"name":"updated", "type":["null", "string"]},
+	  {"name":"created", "type":"string"}
+	]
+}
