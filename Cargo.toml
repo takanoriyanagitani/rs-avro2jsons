@@ -3,6 +3,23 @@ name = "rs-avro2jsons"
 version = "0.1.0"
 edition = "2021"
 
+description = "Converts AVRO rows to JSONs"
+license = "Apache-2.0"
+documentation = "https://docs.rs/crate/rs-avro2jsons/latest"
+repository = "https://github.com/takanoriyanagitani/rs-avro2jsons"
+keywords = [
+    "avro",
+    "json",
+    "jsonl",
+    "cli",
+    "command-line-interface",
+    "command-line-tool",
+]
+categories = [
+    "command-line-interface",
+    "command-line-utilities",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
