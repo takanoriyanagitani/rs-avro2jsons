@@ -13,7 +13,6 @@ keywords = [
     "jsonl",
     "cli",
     "command-line-interface",
-    "command-line-tool",
 ]
 categories = [
     "command-line-interface",
