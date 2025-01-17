@@ -1,6 +1,6 @@
 [package]
 name = "rs-avro2jsons"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 description = "Converts AVRO rows to JSONs"
@@ -40,6 +40,7 @@ codegen-units = 16
 version = "0.17.0"
 default-features = false
 features = [
+    "snappy",
 ]
 
 [dependencies.serde_json]
