@@ -1,6 +1,6 @@
 [package]
 name = "rs-avro2jsons"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 
 description = "Converts AVRO rows to JSONs"
@@ -56,3 +56,14 @@ default-features = false
 features = [
 	"std",
 ]
+
+[features]
+default = [
+	"enable_bzip",
+	"enable_xz",
+	"enable_zstd",
+]
+
+enable_bzip = ["apache-avro/bzip"]
+enable_xz = ["apache-avro/xz"]
+enable_zstd = ["apache-avro/zstandard"]
